@@ -1,0 +1,31 @@
+{
+  "recommendations": [
+    "ms-ceintl.vscode-language-pack-pt-br",
+    "onecentlin.laravel-extension-pack",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "formulahendry.auto-complete-tag",
+    "visualstudioexptteam.vscodeintellicode",
+    "ms-azuretools.vscode-docker",
+    "aaron-bond.better-comments",
+    "naumovs.color-highlight",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "liamhammett.inline-parameters",
+    "anteprimorac.html-end-tag-labels",
+    "christian-kohler.path-intellisense",
+    "bmewburn.vscode-intelephense-client",
+    "esbenp.prettier-vscode",
+    "natqe.reload",
+    "rangav.vscode-thunder-client",
+    "tabnine.tabnine-vscode",
+    "tyriar.lorem-ipsum",
+    "miguelsolorio.fluent-icons",
+    "dracula-theme.theme-dracula",
+    "github.vscode-pull-request-github",
+    "github.remotehub",
+    "pkief.material-icon-theme",
+    "rocketseat.theme-omni",
+    "ms-vscode.remote-repositories"
+  ]
+}
