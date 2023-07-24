@@ -1,0 +1,110 @@
+{
+  /* Workbench Style */
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  /* Editor Style */
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  /*
+    FONTES
+    CaskaydiaCove Nerd Font
+    FiraCode Nerd Font
+    JetBrainsMono Nerd Font
+    VictorMono Nerd Font
+    === == => >= <= -> <- ~~ ~- != !==
+  */
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.rulers": [90],
+  /* Emmet */
+  "emmet.syntaxProfiles": {
+    "javascript": "js",
+    "php": "php"
+  },
+  /* Explorer Style */
+  "explorer.compactFolders": false,
+  /* Files Style */
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.module": "php",
+    "*.inc": "php",
+    "*.install": "php",
+    "*.twig": "html"
+  },
+  /* Terminal Default */
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  /* Code Formatter */
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": true
+  },
+  /* Git */
+  "git.suggestSmartCommit": false,
+  /* Extensions */
+  "extensions.ignoreRecommendations": true,
+  /* Material-icon-theme */
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  /* Inline Parameters */
+  "inline-parameters.enabled": true,
+  /* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more */
+  "tabnine.experimentalAutoImports": true
+}
