@@ -1,10 +1,11 @@
 {
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Dracula Soft",
+  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
   "workbench.editor.enablePreview": false,
+  "workbench.tree.indent": 16,
   /* Editor Style */
   "editor.tabSize": 2,
   "editor.insertSpaces": false,
@@ -58,16 +59,32 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "[jsonc]": {
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
   /* Git */
-  "git.suggestSmartCommit": false,
+  "git.suggestSmartCommit": true,
   /* Extensions */
   "extensions.ignoreRecommendations": true,
   /* Material-icon-theme */
@@ -101,13 +118,18 @@
     "http": "container",
     "providers": "include",
     "factories": "class",
-    "repositories": "mappings"
+    "repositories": "mappings",
+    "bootstrap": "rules"
+  },
+  "material-icon-theme.files.associations": {
+    "*.env": "settings",
+    "*.env.example": "settings",
+    "*.php-cs-fixer.cache": "php-cs-fixer"
   },
   /* Inline Parameters */
   "inline-parameters.enabled": true,
   /* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more */
   "tabnine.experimentalAutoImports": true,
-  /* php cs fixer */
-  "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.onsave": true
+  /* YAML */
+  "redhat.telemetry.enabled": false
 }
