@@ -22,10 +22,18 @@
     "tyriar.lorem-ipsum",
     "miguelsolorio.fluent-icons",
     "dracula-theme.theme-dracula",
-    "github.vscode-pull-request-github",
-    "github.remotehub",
     "pkief.material-icon-theme",
     "rocketseat.theme-omni",
-    "junstyle.php-cs-fixer"
+    "junstyle.php-cs-fixer",
+    "formulahendry.code-runner",
+    "kamikillerto.vscode-colorize",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.live-server",
+    "sdras.night-owl",
+    "zhuangtongfa.material-theme",
+    "styled-components.vscode-styled-components",
+    "vscode-icons-team.vscode-icons",
+    "redhat.vscode-yaml",
+    "qwtel.sqlite-viewer"
   ]
 }
