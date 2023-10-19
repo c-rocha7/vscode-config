@@ -83,7 +83,7 @@
   "[php]": {
     // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -132,9 +132,9 @@
     "bootstrap": "rules"
   },
   "material-icon-theme.files.associations": {
-    "*.env": "settings",
-    "*.env.example": "settings",
-    "*.php-cs-fixer.cache": "php-cs-fixer"
+    ".env": "settings",
+    ".env.example": "settings",
+    ".php-cs-fixer.cache": "php-cs-fixer"
   },
   /* Inline Parameters */
   "inline-parameters.enabled": true,
@@ -145,6 +145,6 @@
   /* php cs fixer */
   "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
   "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.onsave": true,
-  "php-cs-fixer.formatHtml": true
+  "php-cs-fixer.onsave": false,
+  "php-cs-fixer.formatHtml": false
 }
