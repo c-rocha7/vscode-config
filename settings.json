@@ -8,13 +8,14 @@
   "workbench.editor.enablePreview": false,
   "workbench.tree.indent": 16,
   /* Editor Style */
-  "editor.tabSize": 2,
-  "editor.insertSpaces": false,
+  "editor.tabSize": 4,
   "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
   "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.rulers": [90],
+  "editor.detectIndentation": true,
+  "editor.insertSpaces": true,
   /*
     FONTES
     CaskaydiaCove Nerd Font
@@ -82,7 +83,7 @@
   "[php]": {
     // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -144,6 +145,6 @@
   /* php cs fixer */
   "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
   "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.onsave": false,
-  "php-cs-fixer.formatHtml": false
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.formatHtml": true
 }
