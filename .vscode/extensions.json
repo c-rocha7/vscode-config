@@ -34,6 +34,7 @@
     "styled-components.vscode-styled-components",
     "vscode-icons-team.vscode-icons",
     "redhat.vscode-yaml",
-    "qwtel.sqlite-viewer"
+    "qwtel.sqlite-viewer",
+    "monokai.theme-monokai-pro-vscode"
   ]
 }
