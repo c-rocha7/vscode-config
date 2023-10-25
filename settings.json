@@ -36,6 +36,7 @@
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
+  "editor.linkedEditing": true,
   /* Emmet */
   "emmet.syntaxProfiles": {
     "javascript": "js",
