@@ -17,7 +17,7 @@
   "editor.rulers": [90],
   "editor.detectIndentation": true,
   "editor.insertSpaces": true,
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
   "editor.linkedEditing": true,
   /*
     FONTES
