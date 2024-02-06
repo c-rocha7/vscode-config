@@ -1,24 +1,24 @@
 {
   /* Workbench */
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
-  "workbench.tree.indent": 16,
+  "workbench.activityBar.location": "hidden",
   "workbench.editor.enablePreview": false,
-  "workbench.activityBar.location": "top",
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false,
+  /* Window */
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
   /* Editor Style */
-  "editor.tabSize": 4,
   "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.guides.bracketPairs": "active",
   "editor.wordWrap": "on",
-  "editor.guides.bracketPairs": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.rulers": [90],
-  "editor.detectIndentation": true,
-  "editor.insertSpaces": true,
-  "editor.cursorStyle": "line",
-  "editor.linkedEditing": true,
+  "editor.renderLineHighlight": "all",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.rulers": [80, 120],
   /*
     FONTES
     CaskaydiaCove Nerd Font
@@ -35,29 +35,10 @@
     === == => >= <= -> <- ~~ ~- != !==
   */
   "editor.fontFamily": "JetBrainsMono Nerd Font",
-  "editor.fontWeight": "normal",
+  "editor.fontWeight": "bold",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  /* Emmet */
-  "emmet.syntaxProfiles": {
-    "javascript": "js",
-    "php": "php"
-  },
-  /* Explorer Style */
-  "explorer.compactFolders": false,
-  /* Files Style */
-  "files.insertFinalNewline": true,
-  "files.associations": {
-    "*.module": "php",
-    "*.inc": "php",
-    "*.install": "php",
-    "*.twig": "html"
-  },
-  /* Terminal Default */
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.lineHeight": 1.6,
   /* Code Formatter */
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -84,7 +65,6 @@
     "editor.formatOnSave": true
   },
   "[php]": {
-    // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
     "editor.formatOnSave": false
   },
@@ -97,9 +77,21 @@
     "editor.formatOnSave": true
   },
   /* Git */
-  "git.suggestSmartCommit": true,
+  "git.suggestSmartCommit": false,
+  /* Breadcrumbs */
+  "breadcrumbs.enabled": false,
+  /* Explorer Style */
+  "explorer.compactFolders": false,
+  /* Files Style */
+  "files.insertFinalNewline": true,
+  /* Terminal Default */
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
   /* Extensions */
   "extensions.ignoreRecommendations": true,
+  /* Inline Parameters */
+  "inline-parameters.enabled": true,
   /* Material-icon-theme */
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -139,12 +131,59 @@
     ".env.example": "settings",
     ".php-cs-fixer.cache": "php-cs-fixer"
   },
-  /* Inline Parameters */
-  "inline-parameters.enabled": true,
-  /* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more */
-  "tabnine.experimentalAutoImports": true,
-  /* YAML */
-  "redhat.telemetry.enabled": false,
+  /* Apc Customize UI++ */
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "JetBrainsMono Nerd Font",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 48,
+    "itemMargin": 8,
+    "itemSize": 32
+  },
+  /* Code Spell Checker */
+  "cSpell.language": "en,pt_PT",
+  "cSpell.userWords": [
+    "Omni",
+    "Caskaydia",
+    "Fantasque",
+    "Hasklug",
+    "Iosevka",
+    "Lilex",
+    "Monoid",
+    "websockets",
+    "protos",
+    "typeorm",
+    "dtos",
+    "stylesheet",
+    "nosidebar",
+    "esbenp",
+    "onsave",
+    "junstyle"
+  ],
   /* php cs fixer */
   "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
   "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
