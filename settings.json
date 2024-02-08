@@ -1,23 +1,25 @@
 {
   /* Workbench */
+  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   /* Window */
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
   /* Editor Style */
   "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.guides.bracketPairs": "active",
   "editor.wordWrap": "on",
-  "editor.renderLineHighlight": "all",
-  "editor.semanticHighlighting.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.lineNumbers": "on",
   "editor.rulers": [80, 120],
   /*
     FONTES
@@ -182,7 +184,21 @@
     "nosidebar",
     "esbenp",
     "onsave",
-    "junstyle"
+    "junstyle",
+    "Camya",
+    "TipTap",
+    "heroicon",
+    "reorderable",
+    "amet",
+    "consectetur",
+    "adipisicing",
+    "elit",
+    "cumque",
+    "Westdahl",
+    "Sience",
+    "Aleutas",
+    "Nulla",
+    "animi"
   ],
   /* php cs fixer */
   "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
