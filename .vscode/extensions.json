@@ -7,6 +7,7 @@
     "rocketseat.theme-omni",
     "ms-ceintl.vscode-language-pack-pt-br",
     "ms-vscode-remote.vscode-remote-extensionpack",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
     "formulahendry.code-runner",
     "streetsidesoftware.code-spell-checker",
     "ms-azuretools.vscode-docker",
@@ -14,9 +15,11 @@
     "eamodio.gitlens",
     "anteprimorac.html-end-tag-labels",
     "liamhammett.inline-parameters",
+    "visualstudioexptteam.vscodeintellicode",
     "ms-vscode.live-server",
     "junstyle.php-cs-fixer",
-    "streetsidesoftware.code-spell-checker-portuguese",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "natqe.reload",
+    "vscodevim.vim"
   ]
 }
