@@ -93,7 +93,7 @@
   /* Extensions */
   "extensions.ignoreRecommendations": true,
   /* Inline Parameters */
-  "inline-parameters.enabled": true,
+  "inline-parameters.enabled": false,
   /* Material-icon-theme */
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -167,7 +167,7 @@
     "itemSize": 32
   },
   /* Code Spell Checker */
-  "cSpell.language": "en,pt_PT",
+  "cSpell.language": "en-US,en-GB,en,lorem,pt,pt-BR",
   "cSpell.userWords": [
     "Omni",
     "Caskaydia",
@@ -189,16 +189,9 @@
     "TipTap",
     "heroicon",
     "reorderable",
-    "amet",
-    "consectetur",
-    "adipisicing",
-    "elit",
-    "cumque",
-    "Westdahl",
-    "Sience",
-    "Aleutas",
-    "Nulla",
-    "animi"
+    "monaco",
+    "kube",
+    "kubernetes"
   ],
   /* php cs fixer */
   "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
