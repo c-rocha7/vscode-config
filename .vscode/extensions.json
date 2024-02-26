@@ -1,25 +1,24 @@
 {
   "recommendations": [
     "drcika.apc-extension",
+    "formulahendry.auto-complete-tag",
+    "formulahendry.code-runner",
+    "ms-azuretools.vscode-docker",
     "usernamehw.errorlens",
     "miguelsolorio.fluent-icons",
-    "pkief.material-icon-theme",
-    "rocketseat.theme-omni",
-    "ms-ceintl.vscode-language-pack-pt-br",
-    "ms-vscode-remote.vscode-remote-extensionpack",
-    "streetsidesoftware.code-spell-checker-portuguese-brazilian",
-    "formulahendry.code-runner",
-    "streetsidesoftware.code-spell-checker",
-    "ms-azuretools.vscode-docker",
     "mhutchie.git-graph",
     "eamodio.gitlens",
     "anteprimorac.html-end-tag-labels",
     "liamhammett.inline-parameters",
     "visualstudioexptteam.vscodeintellicode",
     "ms-vscode.live-server",
+    "pkief.material-icon-theme",
+    "rocketseat.theme-omni",
     "junstyle.php-cs-fixer",
+    "ms-ceintl.vscode-language-pack-pt-br",
     "esbenp.prettier-vscode",
     "natqe.reload",
+    "ms-vscode-remote.vscode-remote-extensionpack",
     "vscodevim.vim"
   ]
 }
