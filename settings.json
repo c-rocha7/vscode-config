@@ -5,14 +5,16 @@
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
-  "workbench.editor.enablePreview": false,
-  "workbench.layoutControl.enabled": false,
   "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
   /* Window */
   "window.commandCenter": false,
   "window.menuBarVisibility": "compact",
+  "window.titleBarStyle": "native",
   /* Editor Style */
   "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
   "editor.semanticHighlighting.enabled": true,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
@@ -92,8 +94,13 @@
   "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
   /* Extensions */
   "extensions.ignoreRecommendations": true,
+  /* php cs fixer */
+  "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
+  "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
+  "php-cs-fixer.onsave": false,
+  "php-cs-fixer.formatHtml": false,
   /* Inline Parameters */
-  "inline-parameters.enabled": false,
+  "inline-parameters.enabled": true,
   /* Material-icon-theme */
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -165,37 +172,5 @@
     "size": 48,
     "itemMargin": 8,
     "itemSize": 32
-  },
-  /* Code Spell Checker */
-  "cSpell.language": "en-US,en-GB,en,lorem,pt,pt-BR",
-  "cSpell.userWords": [
-    "Omni",
-    "Caskaydia",
-    "Fantasque",
-    "Hasklug",
-    "Iosevka",
-    "Lilex",
-    "Monoid",
-    "websockets",
-    "protos",
-    "typeorm",
-    "dtos",
-    "stylesheet",
-    "nosidebar",
-    "esbenp",
-    "onsave",
-    "junstyle",
-    "Camya",
-    "TipTap",
-    "heroicon",
-    "reorderable",
-    "monaco",
-    "kube",
-    "kubernetes"
-  ],
-  /* php cs fixer */
-  "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
-  "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.onsave": false,
-  "php-cs-fixer.formatHtml": false
+  }
 }
