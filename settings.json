@@ -1,27 +1,33 @@
 {
-  /* Workbench */
+  /* Workbench Style */
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": true,
-  "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
+  "workbench.layoutControl.enabled": false,
   /* Window */
   "window.commandCenter": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "hidden",
   "window.titleBarStyle": "native",
   /* Editor Style */
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
   "editor.minimap.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.detectIndentation": true,
   "editor.linkedEditing": true,
-  "editor.semanticHighlighting.enabled": true,
+  "editor.lineNumbers": "on",
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "block",
+  "editor.renderLineHighlight": "all",
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.guides.bracketPairs": "active",
-  "editor.wordWrap": "on",
-  "editor.renderLineHighlight": "gutter",
-  "editor.lineNumbers": "on",
   "editor.rulers": [80, 120],
   /*
     FONTES
@@ -43,30 +49,46 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.6,
+  /* Explorer Style */
+  "explorer.compactFolders": false,
+  /* Extensions */
+  "extensions.ignoreRecommendations": true,
+  /* Terminal Default */
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
+  /* Git */
+  "git.suggestSmartCommit": false,
+  /* Breadcrumbs */
+  "breadcrumbs.enabled": false,
+  /* Files Style */
+  "files.insertFinalNewline": true,
+  /* Better Comments */
+  "better-comments.multilineComments": true,
   /* Code Formatter */
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[php]": {
     "editor.defaultFormatter": "junstyle.php-cs-fixer",
@@ -74,26 +96,12 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": false
   },
-  /* Git */
-  "git.suggestSmartCommit": false,
-  /* Breadcrumbs */
-  "breadcrumbs.enabled": false,
-  /* Explorer Style */
-  "explorer.compactFolders": false,
-  /* Files Style */
-  "files.insertFinalNewline": true,
-  /* Terminal Default */
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
-  /* Extensions */
-  "extensions.ignoreRecommendations": true,
   /* php cs fixer */
   "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
   "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
@@ -101,6 +109,8 @@
   "php-cs-fixer.formatHtml": false,
   /* Inline Parameters */
   "inline-parameters.enabled": true,
+  /* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more */
+  "tabnine.experimentalAutoImports": true,
   /* Material-icon-theme */
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -140,6 +150,30 @@
     ".env.example": "settings",
     ".php-cs-fixer.cache": "php-cs-fixer"
   },
+  /* Code Spell Checker */
+  "cSpell.language": "en-US,en-GB,en,lorem,pt,pt-BR",
+  "cSpell.userWords": [
+    "Omni",
+    "Caskaydia",
+    "Fantasque",
+    "Hasklug",
+    "Iosevka",
+    "Lilex",
+    "Monoid",
+    "websockets",
+    "protos",
+    "typeorm",
+    "dtos",
+    "stylesheet",
+    "nosidebar",
+    "esbenp",
+    "onsave",
+    "junstyle",
+    "Tabnine",
+    "tabnine",
+    "kube",
+    "kubernetes"
+  ],
   /* Apc Customize UI++ */
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
