@@ -35,6 +35,9 @@
     "styled-components.vscode-styled-components",
     "aaron-bond.better-comments",
     "qwtel.sqlite-viewer",
-    "vscodevim.vim"
+    "vscodevim.vim",
+    "helixquar.randomeverything",
+    "kisstkondoros.vscode-gutter-preview",
+    "pranaygp.vscode-css-peek",
   ]
 }
