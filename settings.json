@@ -9,18 +9,12 @@
   "workbench.statusBar.visible": true,
   "workbench.editor.enablePreview": false,
   "workbench.layoutControl.enabled": false,
-  /* Window */
-  "window.commandCenter": false,
+  "workbench.tree.enableStickyScroll": false,
+  /* Window Style */
   "window.menuBarVisibility": "hidden",
   "window.titleBarStyle": "native",
+  "window.commandCenter": false,
   /* Editor Style */
-  "editor.tabSize": 2,
-  "editor.insertSpaces": false,
-  "editor.minimap.enabled": false,
-  "editor.semanticHighlighting.enabled": false,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.detectIndentation": true,
-  "editor.linkedEditing": true,
   "editor.lineNumbers": "on",
   "editor.wordWrap": "on",
   "editor.cursorStyle": "block",
@@ -28,27 +22,35 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.guides.bracketPairs": "active",
+  "editor.tabSize": 2,
   "editor.rulers": [80, 120],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.detectIndentation": true,
+  "editor.linkedEditing": true,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
   /*
-    FONTES
-    CaskaydiaCove Nerd Font
-    FantasqueSansM Nerd Font
-    FiraCode Nerd Font
-    Hack Nerd Font
-    Hasklug Nerd Font
-    Iosevka Nerd Font
-    IosevkaTerm Nerd Font
-    JetBrainsMono Nerd Font
-    Lilex Nerd Font
-    Monoid Nerd Font
-    VictorMono Nerd Font
-    === == => >= <= -> <- ~~ ~- != !==
-  */
+   *  FONTES
+   *  CaskaydiaCove Nerd Font
+   *  FantasqueSansM Nerd Font
+   *  FiraCode Nerd Font
+   *  Hack Nerd Font
+   *  Hasklug Nerd Font
+   *  Iosevka Nerd Font
+   *  IosevkaTerm Nerd Font
+   *  JetBrainsMono Nerd Font
+   *  Lilex Nerd Font
+   *  Monoid Nerd Font
+   *  VictorMono Nerd Font
+   *  === == => >= <= -> <- ~~ ~- != !==
+   */
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.fontWeight": "bold",
-  "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
   /* Explorer Style */
   "explorer.compactFolders": false,
   /* Extensions */
@@ -63,8 +65,6 @@
   "breadcrumbs.enabled": false,
   /* Files Style */
   "files.insertFinalNewline": true,
-  /* Better Comments */
-  "better-comments.multilineComments": true,
   /* Code Formatter */
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -102,15 +102,18 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
   },
-  /* php cs fixer */
-  "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
-  "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.onsave": false,
-  "php-cs-fixer.formatHtml": false,
   /* Inline Parameters */
   "inline-parameters.enabled": true,
   /* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more */
   "tabnine.experimentalAutoImports": true,
+  /* GitHub Pull Request */
+  "githubPullRequests.createOnPublishBranch": "never",
+  /* php cs fixer */
+  // "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
+  // "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
+  "php-cs-fixer.executablePath": "php-cs-fixer.bat",
+  "php-cs-fixer.onsave": false,
+  "php-cs-fixer.formatHtml": false,
   /* Material-icon-theme */
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -151,60 +154,33 @@
     ".php-cs-fixer.cache": "php-cs-fixer"
   },
   /* Code Spell Checker */
-  "cSpell.language": "en-US,en-GB,en,lorem,pt,pt-BR",
+  "cSpell.language": "en,pt_PT,pt_BR, lorem",
   "cSpell.userWords": [
-    "Omni",
     "Caskaydia",
+    "dtos",
+    "esbenp",
     "Fantasque",
     "Hasklug",
     "Iosevka",
+    "junstyle",
+    "kube",
+    "kubernetes",
     "Lilex",
     "Monoid",
-    "websockets",
-    "protos",
-    "typeorm",
-    "dtos",
-    "stylesheet",
-    "nosidebar",
-    "esbenp",
+    "Omni",
     "onsave",
-    "junstyle",
-    "Tabnine",
+    "stylesheet",
     "tabnine",
-    "kube",
-    "kubernetes"
+    "typeorm",
+    "websockets"
   ],
   /* Apc Customize UI++ */
   "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
+    "titleBarStyle": "hidden"
   },
   "apc.font.family": "JetBrainsMono Nerd Font",
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
-    ".editor-actions": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
-  },
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 48,
-    "itemMargin": 8,
-    "itemSize": 32
+    ".editor-actions": "display: none"
   }
 }
