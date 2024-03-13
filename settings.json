@@ -21,9 +21,9 @@
   "editor.renderLineHighlight": "all",
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.guides.bracketPairs": "active",
-  "editor.tabSize": 2,
+  "editor.tabSize": 4,
   "editor.rulers": [80, 120],
+  "editor.guides.bracketPairs": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": true,
   "editor.linkedEditing": true,
@@ -60,6 +60,7 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontFamily": "FantasqueSansM Nerd Font",
   /* Git */
+  "git.openRepositoryInParentFolders": "always",
   "git.suggestSmartCommit": false,
   /* Breadcrumbs */
   "breadcrumbs.enabled": false,
@@ -109,9 +110,8 @@
   /* GitHub Pull Request */
   "githubPullRequests.createOnPublishBranch": "never",
   /* php cs fixer */
-  // "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
-  // "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.executablePath": "php-cs-fixer.bat",
+  "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
+  "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
   "php-cs-fixer.onsave": false,
   "php-cs-fixer.formatHtml": false,
   /* Material-icon-theme */
@@ -156,16 +156,20 @@
   /* Code Spell Checker */
   "cSpell.language": "en,pt_PT,pt_BR, lorem",
   "cSpell.userWords": [
+    "autoload",
     "Caskaydia",
     "dtos",
     "esbenp",
     "Fantasque",
+    "fontawesome",
     "Hasklug",
+    "httpverb",
     "Iosevka",
     "junstyle",
     "kube",
     "kubernetes",
     "Lilex",
+    "Mittie",
     "Monoid",
     "Omni",
     "onsave",
