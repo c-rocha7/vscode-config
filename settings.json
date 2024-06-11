@@ -92,7 +92,7 @@
     "editor.formatOnSave": false
   },
   "[php]": {
-    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.defaultFormatter": "open-southeners.laravel-pint",
     "editor.formatOnSave": false
   },
   "[json]": {
@@ -103,17 +103,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": false
   },
+  /* Laravel Pint */
+  "laravel-pint.enable": true,
   /* Inline Parameters */
   "inline-parameters.enabled": true,
-  /* Tabnine AI Autocomplete for Javascript, Python, Typescript, PHP, Go, Java, Ruby & more */
-  "tabnine.experimentalAutoImports": true,
   /* GitHub Pull Request */
   "githubPullRequests.createOnPublishBranch": "never",
-  /* php cs fixer */
-  "php-cs-fixer.executablePathWindows": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer.bat",
-  "php-cs-fixer.executablePath": "${workspaceFolder}/tools/php-cs-fixer/vendor/bin/php-cs-fixer",
-  "php-cs-fixer.onsave": false,
-  "php-cs-fixer.formatHtml": false,
   /* Material-icon-theme */
   "material-icon-theme.folders.associations": {
     "adapters": "contract",
@@ -153,31 +148,6 @@
     ".env.example": "settings",
     ".php-cs-fixer.cache": "php-cs-fixer"
   },
-  /* Code Spell Checker */
-  "cSpell.language": "en,pt_PT,pt_BR, lorem",
-  "cSpell.userWords": [
-    "autoload",
-    "Caskaydia",
-    "dtos",
-    "esbenp",
-    "Fantasque",
-    "fontawesome",
-    "Hasklug",
-    "httpverb",
-    "Iosevka",
-    "junstyle",
-    "kube",
-    "kubernetes",
-    "Lilex",
-    "Mittie",
-    "Monoid",
-    "Omni",
-    "onsave",
-    "stylesheet",
-    "tabnine",
-    "typeorm",
-    "websockets"
-  ],
   /* Apc Customize UI++ */
   "apc.electron": {
     "titleBarStyle": "hidden"
